@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Simple Manual</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 { color: #333; }
+        h2 { color: #555; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>My Simple Manual</h1>
+    
+    <!-- Clickable Index (Table of Contents) -->
+    <h2>Index</h2>
+    <ul>
+        <li><a href="#section1">Section 1: Introduction</a></li>
+        <li><a href="#section2">Section 2: How to Use</a></li>
+        <li><a href="#section3">Section 3: Troubleshooting</a></li>
+    </ul>
+
+    <!-- Content Sections (with internal links) -->
+    <h2 id="section1">Section 1: Introduction</h2>
+    <p>This is the introduction section. You can write formatted text here.</p>
+    <p>Example of a <a href="https://example.com" target="_blank">hyperlink</a> to an external site.</p>
+    <p><a href="#top">Back to Index</a></p>
+
+    <h2 id="section2">Section 2: How to Use</h2>
+    <p>This section explains how to use the manual.</p>
+    <p><a href="#top">Back to Index</a></p>
+
+    <h2 id="section3">Section 3: Troubleshooting</h2>
+    <p>Common issues and fixes go here.</p>
+    <p><a href="#top">Back to Index</a></p>
+</body>
+</html>
