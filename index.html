@@ -1,44 +1,237 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>My Simple Manual</title>
+    <meta charset="UTF-8">
+    <title>Manual del Delegado de Epidemiología</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            color: #000000;
+            line-height: 1.6;
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            line-height: 1.6;
         }
-        h1 { color: #333; }
-        h2 { color: #555; }
-        a { color: #0066cc; text-decoration: none; }
-        a:hover { text-decoration: underline; }
+        h1 { font-size: 24px; }
+        h2 { font-size: 20px; color: #0066cc; margin-top: 30px; }
+        h3 { font-size: 18px; margin-top: 20px; }
+        p { margin: 10px 0; }
+        strong { font-weight: bold; }
+        em { font-style: italic; }
+        u { text-decoration: underline; }
+        
+        /* List styling */
+        ul, ol {
+            padding-left: 20px;
+            margin: 10px 0;
+        }
+        ul {
+            list-style-type: disc;
+        }
+        ul ul {
+            list-style-type: circle;
+        }
+        ul ul ul {
+            list-style-type: square;
+        }
+        ol {
+            list-style-type: decimal;
+        }
+        ol ol {
+            list-style-type: lower-alpha;
+        }
+        ol ol ol {
+            list-style-type: lower-roman;
+        }
+        
+        /* Table of contents */
+        .toc {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .toc ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .toc li {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
-    <h1>My Simple Manual</h1>
+    <h1 id="inicio">Manual del Delegado de Epidemiología</h1>
     
-    <!-- Clickable Index (Table of Contents) -->
-    <h2>Index</h2>
+    <div class="toc">
+        <h2>Índice</h2>
+        <ul>
+            <li><a href="#introduccion">Introducción al rol de Delegado</a></li>
+            <li><a href="#antecedentes">Antecedentes: qué es la Vigilancia Epidemiológica</a></li>
+            <li><a href="#caracteristicas">Características generales</a></li>
+            <li><a href="#fuentes">¿Cuáles son otras fuentes de información en Salud?</a></li>
+            <li><a href="#insuficientes">¿Por qué estas otras fuentes no son suficientes?</a></li>
+            <li><a href="#chile">El Sistema de Vigilancia Epidemiológica en Chile</a></li>
+        </ul>
+    </div>
+
+    <h2 id="introduccion">Introducción al rol de Delegado</h2>
+    
+    <h2 id="antecedentes">Antecedentes: qué es la Vigilancia Epidemiológica</h2>
+    
+    <h2 id="caracteristicas">Características generales</h2>
+    <p>Los sistemas de salud requieren de información oportuna y confiable para tomar decisiones. Esto es relevante tanto en situaciones agudas, como por ejemplo para responder ante situaciones de emergencia (brotes y epidemias, emergencias y desastres), como para planificar a plazos más extendidos (ej: el aumento de patologías respiratorias en temporada de invierno lleva a la planificación anual de la Campaña de Invierno; el envejecimiento progresivo de la población lleva a focalizar el desarrollo de prestaciones dirigidas a las enfermedades crónicas no transmisibles y neoplasias, etc.).</p>
+    
+    <p>La Vigilancia Epidemiológica es una de las principales fuentes de información para los sistemas de salud. Está incluida dentro de una de las Funciones Esenciales de la Salud Pública, definidas por la Organización Panamericana de la Salud.</p>
+    
+    <p><strong>Definición esencial</strong>: es un sistema organizado y continuo de recolección, análisis, interpretación y difusión de datos de salud. Énfasis en que este sistema no solo recoleta la información, sino que realiza un proceso de análisis e interpretación para transformar los datos en información relevante y atingente para la toma de decisiones.</p>
+    
+    <p><strong>Propósito fundamental</strong>: detectar cambios en patrones de enfermedades (brotes, tendencias, nuevas amenazas) y evaluar riesgos para guiar intervenciones (ej.: campañas de vacunación, medidas de control).</p>
+    
+    <h3>Características clave</h3>
     <ul>
-        <li><a href="#section1">Section 1: Introduction</a></li>
-        <li><a href="#section2">Section 2: How to Use</a></li>
-        <li><a href="#section3">Section 3: Troubleshooting</a></li>
+        <li><strong>Sistematicidad</strong>: es la propiedad fundamental de la vigilancia epidemiológica que la diferencia de otras fuentes de información en salud. Significa que la recolección de datos se hace mediante protocolos estandarizados y claramente definidos, lo que tiene como consecuencia que la ejecución de dicha recolección es mecánica en el sentido de que no depende de las personas que la llevan a cabo. En otras palabras, los procedimientos están definidos de forma tal que no hay espacio para la subjetividad o la interpretación de los participantes, lo que evita varios posibles sesgos. Esto permite que los datos recabados sean comparables, tanto entre distintos lugares como en distintos tiempos.</li>
+        <li><strong>Oportunidad</strong>: los datos se obtienen en tiempo real o casi real.</li>
+        <li><strong>Enfoque poblacional</strong>: se preocupa no solo de individuos enfermos, sino también de factores de riesgo poblacionales y determinantes sociales.</li>
     </ul>
-
-    <!-- Content Sections (with internal links) -->
-    <h2 id="section1">Section 1: Introduction</h2>
-    <p>This is the introduction section. You can write formatted text here.</p>
-    <p>Example of a <a href="https://example.com" target="_blank">hyperlink</a> to an external site.</p>
-    <p><a href="#top">Back to Index</a></p>
-
-    <h2 id="section2">Section 2: How to Use</h2>
-    <p>This section explains how to use the manual.</p>
-    <p><a href="#top">Back to Index</a></p>
-
-    <h2 id="section3">Section 3: Troubleshooting</h2>
-    <p>Common issues and fixes go here.</p>
-    <p><a href="#top">Back to Index</a></p>
+    
+    <p>El proceso general se puede resumir de la siguiente forma:</p>
+    <p><strong>Detección → Notificación → Análisis → Toma de decisiones</strong></p>
+    
+    <p>Por ejemplo: un sistema de vigilancia detecta un aumento de casos de hepatitis A en cierto sector, los que son notificados a medida que ocurren. Esto gatilla una investigación epidemiológica que logra identificar la fuente del contagio, por ejemplo, una fuente de agua contaminada. Esto permite planificar y ejecutar medidas que solucionen dicha contaminación, evitando que ocurran aún más casos.</p>
+    
+    <h2 id="fuentes">¿Cuáles son otras fuentes de información en Salud?</h2>
+    <h3>¿Por qué no son suficientes?</h3>
+    
+    <p>El sistema de salud se nutre de múltiples fuentes de información para basar sus decisiones. A continuación se detallan los más relevantes, especificando sus características principales.</p>
+    
+    <ul>
+        <li><strong>Registros clínicos electrónicos</strong>
+            <ul>
+                <li>Ventaja: son sistemas que registran datos a nivel individual de cada paciente. Contienen cantidades inmensas de información clínica.</li>
+                <li>Limitación: fragmentación entre sistemas que impide obtener fácilmente información de todos ellos, ya que emplean distintos sistemas de bases de datos. Además, aunque hubiese integración, los datos que contienen no son sistemáticos, ya que tienen una finalidad clínica y no epidemiológica/estadística. Por último, la calidad de los datos suele ser deficiente, por ejemplo en relación a la codificación diagnóstica mediante CIE-10.</li>
+            </ul>
+        </li>
+        <li><strong>Egresos hospitalarios</strong>
+            <ul>
+                <li>Ventaja: contienen información clínica detallada y de mejor calidad, ya que suelen ser pacientes que se estudian más profundamente para determinar un diagnóstico preciso.</li>
+                <li>Limitación: solo se registran casos de enfermedades que requieren hospitalización. Esto implica que, para la gran mayoría de problemas de salud, solo encontraremos datos de una pequeña proporción de ellos ("la punta del iceberg"). Además, estos datos requieren tiempo para generarse (se produce posterior al alta del paciente), y se recolectan desde el nivel central de manera periódica.</li>
+            </ul>
+        </li>
+        <li><strong>Estadísticas vitales</strong>
+            <ul>
+                <li>Corresponde a la información sobre nacimientos, fallecimientos y matrimonios, registrada por el Servicio de Registro Civil e Identificación. De estos, los fallecimientos proveen información muy relevante para el sector salud, entregando datos caso a caso sobre la edad, sexo y causa de defunción. También son relevantes los nacimientos para realizar proyecciones de población.</li>
+                <li>Ventaja: información completa de las defunciones, incluyendo todos los casos, con edad, lugar y causa.</li>
+                <li>Limitación: tienen un retraso considerable, pues el proceso incluye una revisión manual de cada defunción para realizar la clasificación final de la causa básica de defunción. Esto obedece, en parte, a que el registro que realiza el médico en el Certificado de Defunción no siempre sigue las normas establecidas para ello, lo que lleva a datos estadísticamente inútiles que deben corregirse. Este proceso toma de uno a dos años. Por otro lado, tienen utilidad limitada ya que solo proveen información acerca de las muertes, similar a lo que sucede con los egresos hospitalarios; no sirve para tener información sobre enfermedades que no causan la muerte.</li>
+            </ul>
+        </li>
+        <li><strong>Encuestas poblacionales</strong>
+            <ul>
+                <li>Ventaja: son una fuente de muy buena calidad, tienen representatividad estadística. Estos instrumentos, cuando se realizan con metodología adecuada, permiten conocer de manera muy precisa los aspectos que se miden.</li>
+                <li>Limitación: son caras y requieren de largo tiempo para su realización (1-2 años), por lo que se ejecutan con periodicidad limitada (alrededor de 7 años para la Encuesta Nacional de Salud). No permiten estudiar condiciones muy raras.</li>
+            </ul>
+        </li>
+        <li><strong>Sistemas de información administrativa</strong>
+            <ul>
+                <li>Como registros de afiliados al FONASA o a ISAPRE, registros de licencias médicas, registros de enfermedades laborales, etc.</li>
+                <li>Ventaja: tienen amplia cobertura, con datos individuales.</li>
+                <li>Limitación: no incluyen datos epidemiológicos relevantes al estar diseñados para gestión.</li>
+            </ul>
+        </li>
+        <li><strong>Medios de comunicación y redes sociales</strong>
+            <ul>
+                <li>Ventaja: su monitorización permite la detección temprana de rumores u otros eventos epidemiológicamente relevantes.</li>
+                <li>Limitación: son complejos de implementar, requieren validación ya que pueden generar falsos positivos.</li>
+            </ul>
+        </li>
+        <li><strong>Estudios científicos</strong>
+            <ul>
+                <li>Ventaja: permiten obtener información precisa de prácticamente cualquier tema que se quiera estudiar.</li>
+                <li>Limitación: son complejos y caros de ejecutar, y deben ser metodológicamente adecuados para producir resultados confiables. Toman tiempo.</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2 id="insuficientes">¿Por qué estas otras fuentes no son suficientes?</h2>
+    
+    <p>La Vigilancia Epidemiológica posee características que la hacen única entre las fuentes de información:</p>
+    
+    <ul>
+        <li><strong>Estandarización metodológica</strong>: como ya se mencionó, el énfasis en esta vigilancia está en la sistematicidad de sus procedimientos para obtener información de alta calidad. Para ello se usan protocolos uniformes y procedimientos sistemáticos, lo que permite comparar los resultados en el tiempo y entre lugares.</li>
+        <li><strong>Capacidad de acción inmediata</strong>: detecta problemas en tiempo real permitiendo ejecutar intervenciones precoces.</li>
+        <li><strong>Integración sistémica</strong>: combina múltiples fuentes de datos (establecimientos de salud, laboratorios clínicos).</li>
+        <li><strong>Cobertura poblacional amplia</strong>: se aplica a nivel nacional, tanto en sistema público como privado de salud.</li>
+        <li><strong>Enfoque preventivo</strong>: identifica riesgos y permite abordarlos antes de que se transformen en problemas.</li>
+    </ul>
+    
+    <p>En suma, la Vigilancia Epidemiológica provee información con características que otras fuentes no pueden lograr: sistemática, integral y oportuna.</p>
+    
+    <p><em>No es una fuente más, sino la columna vertebral de la información en salud. Transforma datos en decisiones que previenen muertes y enfermedades y ahorran recursos.</em></p>
+    
+    <h2 id="chile">El Sistema de Vigilancia Epidemiológica en Chile</h2>
+    
+    <h3>Algunos hitos</h3>
+    <ul>
+        <li>1952: Creación del Sistema Nacional de Vigilancia Epidemiológica.</li>
+        <li>1972: Control de la circulación de la rabia urbana.</li>
+        <li>1975: eliminación de la circulación del virus polio salvaje.</li>
+        <li>2015: certificación de la eliminación de la rubeola.</li>
+    </ul>
+    
+    <h3>Marco jurídico</h3>
+    <p>El sistema chileno está regulado mediante leyes, decretos, reglamentos y circulares, siendo los principales los siguientes:</p>
+    
+    <ul>
+        <li><a href="https://bcn.cl/24us4">Código Sanitario</a> (DFL N° 725/68). Es la ley paraguas del sistema de salud, donde ya se sientan las bases del sistema de vigilancia.</li>
+        <li><a href="https://bcn.cl/2ryx3">Reglamento Sanitario Internacional</a> (RSI, 2005) (DS 230/2008). Es un instrumento legalmente vinculante que cubre medidas para prevenir la propagación internacional de enfermedades infecciosas. Fue aprobado en la 58ª Asamblea Mundial de la Salud en el 2005 mediante la resolución WHA58.3. En Chile, fue aprobado por el Congreso Nacional durante 2008 y luego promulgado mediante el Decreto 230 de 2008 del Ministerio de Relaciones Internacionales.</li>
+        <li><a href="https://bcn.cl/2f92r">Reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia</a>, aprobado por el Decreto N° 7 de 2019, del Minsal. Principal documento relativo al subsistema de vigilancia de morbilidad.</li>
+        <li><a href="https://bcn.cl/2lir5">Reglamento de notificación obligatoria de las intoxicaciones agudas con pesticidas</a>, aprobado por el Decreto N° 88 de 2004, del Minsal.</li>
+        <li><a href="https://bcn.cl/2mcjh">Reglamento de prevención y control de la rabia en el hombre y en los animales</a>, aprobado por el Decreto N° 1 de 2013, del Minsal.</li>
+    </ul>
+    
+    <h3>Modelo de Vigilancia</h3>
+    <p>El sistema de vigilancia chileno está compuesto por tres subsistemas, definidos en base al evento a vigilar, y dentro de cada uno de ellos se diferencian vigilancias específicas:</p>
+    
+    <ol>
+        <li>Subsistema de vigilancia de morbilidad
+            <ol type="a">
+                <li>Vigilancia universal caso a caso</li>
+                <li>Vigilancia basada en centinela</li>
+                <li>Vigilancia de brotes</li>
+                <li>Vigilancia de fallecimientos con sospecha de agente infeccioso transmisible no identificado</li>
+            </ol>
+        </li>
+        <li>Subsistema de vigilancia de laboratorio
+            <ol type="a">
+                <li>Vigilancia de agentes etiológicos</li>
+                <li>Vigilancia de resistencia antimicrobiana</li>
+            </ol>
+        </li>
+        <li>Subsistema de vigilancia ambiental
+            <ol type="a">
+                <li>Control de animales</li>
+                <li>Control de vectores</li>
+                <li>Monitoreo ambiental: agua, aire, suelo</li>
+                <li>Control de alimentos</li>
+            </ol>
+        </li>
+    </ol>
+    
+    <h4>Subsistema de vigilancia de morbilidad</h4>
+    <p>Es la vigilancia basada en la notificación de casos de enfermedades detectadas por el personal de salud de los establecimientos asistenciales, está regulada por el Reglamento sobre notificación de enfermedades transmisibles de declaración obligatoria y su vigilancia (Decreto 7/2019).</p>
+    
+    <h5>1. Vigilancia universal caso a caso</h5>
+    <p>Consiste en la notificación individual de todos los casos nuevos de las enfermedades sujetas a vigilancia (cobertura universal). Se emplean definiciones de casos sospechosos y confirmados, en general, los casos sospechosos se definen en base a las características clínicas de la enfermedad y a los antecedentes epidemiológicos, mientras que los casos confirmados normalmente requieren criterios de laboratorio.</p>
+    
+    <p>El plazo para la notificación varía según se trate de enfermedades en que se notifica su sospecha, caso en el que la notificación debe ser inmediata, o bien aquellas en que se notifica una vez confirmada, para lo que se establecen 24 horas de plazo a partir de la confirmación.</p>
+    
+    <p>Esta vigilancia opera mediante el sistema informático Epivigila. Es en esta vigilancia donde el Delegado de Epidemiología de cada establecimiento tiene un rol fundamental, debiendo realizar la validación de las notificaciones que se realicen en su centro.</p>
+    
+    <h5>2. Vigilancia basada en centinela</h5>
+    <p>Es la vigilancia de un problema de salud determinado que solo se ejecuta en algunos establecimientos específicos. De esta manera, se logra vigilar el problema en una muestra de la población en riesgo, la que debe ser representativa para poder sacar conclusiones respecto del total de la población en riesgo. Este tipo de vigilancia se emplea cuando no es adecuado, ni necesario, registrar la totalidad de los eventos, empleándose habitualmente para patologías de alta frecuencia y baja letalidad.</p>
+    
+    <p>Son ejemplos de ella: vigilancia de la Enfermedad Tipo Influenza, vigilancia de las Infecciones Respiratorias Agudas Graves, vigilancia de las diarreas en menores de 5 años.</p>
+    
+    <p><a href="#inicio">Volver al índice</a></p>
 </body>
 </html>
