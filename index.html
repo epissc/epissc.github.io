@@ -318,7 +318,7 @@
     <h3 id="BAI">Búsqueda Activa Institucional</h3>
     <p>Es la revisión periódica de registros del total de atenciones de morbilidad y de urgencias/SAPU/SAR del establecimiento en búsqueda de casos que cumplían criterios de sospecha o confirmación de Enfermedades de Notificación Obligatoria que no fueron notificados. Permite detectar, registrar y notificar correctamente casos que pudiesen no haber sido pesquisados durante su atención, y también estimar el grado de efectividad de la vigilancia epidemiológica en el establecimiento, lo que, a su vez, permite retroalimentar al estamento médico.</p>
     <p>Cada establecimiento puede definir la metodología con la que se llevará a cabo esta actividad, considerando, eso sí, que deberá demostrar su eficacia tanto ante la Autoridad Saniaria como ante el SS Concepción.</p>
-    <p>Desde la Sección Epidemiología de la Dirección del SS Concepción se desarrolló una metodología que sugerimos emplear y que se describe a continuación.</p>
+    <p>Desde la Sección Epidemiología de la Dirección del SS Concepción se desarrolló una metodología que sugerimos emplear y que se describe a continuación. En la sección subsiguiente ponemos a su disposición archivos de Excel con macros que permiten automatizar parte del proceso, junto a una guía para su empleo.</p>
 
     <h4>Metodología sugerida para Búsqueda Activa Institucional</h4>
     <p>Esta metodología está basada en la información disponbile en el sistema de registro clínico electrónico SinetSur, específicamente en las planillas que el sistema permite extraer que contienen las atenciones de policlínico de morbilidad y las atenciones de urgencias. El proceso consiste, básicamente, en revisar los registros haciendo un filtro inicial en base al diagnóstico, el motivo de consulta, la dirección y la fecha de atención, para luego evaluar los casos seleccionados uno por uno. A continuación se describe paso por paso.</p>
@@ -337,7 +337,7 @@
         </ol></li>
         <li>Atenciones de Urgencias/SAPU
         <ol>
-            <li>Obtener planilla de atenciones de urgencias/SAPU (<a href="https://drive.google.com/file/d/1VC8gOums4NhsLqfWmsJuTFu2G4_Ug6Sg/view">instructivo para SinetSur</a>.</li>
+            <li>Obtener planilla de atenciones de urgencias/SAPU (<a href="https://drive.google.com/file/d/1VC8gOums4NhsLqfWmsJuTFu2G4_Ug6Sg/view">instructivo para SinetSur</a>).</li>
             <li>Filtrar planilla por diagnósticos y códigos CIE-10 de interés, y por palabras claves del motivo de consulta.
                 <ol>
                     <li>Revisar registro/DAU de cada caso encontrado.</li>
@@ -349,8 +349,16 @@
         </ol>
         </li>
     </ol>
-
+    <p>Cabe señalar que puede ocurrir que los antecedentes descritos en el registro de atención no sean suficientes para confirmar ni descartar que el caso cumple la definición de caso sospechoso/confirmado. En esta situación puede ser necesario contactar al usuario por vía telefónica para consultar la información requeridas.</p>
     
+    <h4>Sistema semiautomatizado</h4>
+    <p>Este sistema consiste en dos archivos de excel habilitados para macro (.xlsm), diseñados para funcionar con las planillas de SinetSur de atenciones de morbilidad y de urgencias. (Se podría adaptar para usar otras planillas, como las de AVIS, pero para hacerlo se necesita un ejemplo, y no hemos tenido respuesta de DAS Concepción.) Estos archivos automatizan el filtrado en base a diagnóstico, código CIE-10 y motivo de consulta. Los enlaces para obtener los archivos son:</p>
+    <ul>
+        <li><a href="https://drive.google.com/uc?export=download&id=11HDNNZJHQkemywO5UY22mrrKu1aB28gr">BAI-Urgencias-V1.1</a></li>
+        <li><a href="https://drive.google.com/uc?export=download&id=1kK5TcSfQbZvUZuc0qeBMcBcRTQrIgYTI">BAI-Morbilidad-V1.0</a></li>
+    </ul>
+    <p>Dentro de cada archivo encontrará instrucciones detalladas sobre el modo de empleo. En resumen, debe, en primer lugar, desbloquear el archivo siguiendo las instrucciones de su versión de Microsoft Excel para permitir la ejecución de macros. Luego cargar la base de datos correspondiente usando el botón para ese efecto, lo que abrirá y filtrará automáticamente la planilla. Una vez filtrada, se debe revisar cada caso para corroborar si corresponde o no a una ENO no notificada.</p>
+    <p>Cabe señalar que el sistema no busca direcciones o apellidos repetidos, por lo que esa parte se debe hacer manualmente (planeamos incorporar esta funcionalidad en el futuro).</p>
     <hr>    
     
 <!-- etceteras mientras tanto voy agregendo xd
